@@ -1,0 +1,120 @@
+$white: #fff;
+$dark: #001A21;
+
+$blueDark: #233544;
+$blueMediumDark: #334b5d;
+$gray: #7d8c97;
+$grayLight: #dee2e5;
+$violet: #9356f8;
+$cyanLight: #7ef2f3;
+$health: #FFCB00;
+$crime: #FF0000;
+$green: #6AD400;
+$errors: #EC7070;
+
+.bg-violet {
+	background: rgba(147, 86, 248, 0.2);
+}
+
+.bg-green {
+	background: rgba(106, 212, 0, 0.2);
+}
+
+.bg-red {
+	background: rgba(255, 0, 0, 0.2);
+}
+
+.bg-yellow {
+	background: rgba(255, 203, 0, 0.2);
+}
+
+/*Heatmap colors*/
+.heatmap-00 {
+	background: $grayLight;
+}
+
+.heatmap-01 {
+	background: #6AD400;
+} /* 0 - 0.01*/
+
+.heatmap-02 {
+	background: #97D101;
+} /* 0.01 - 1*/
+
+.heatmap-03 {
+	background: #B5CF01;
+} /* 1 - 10*/
+
+.heatmap-04 {
+	background: #D3CE01;
+} /* 10 - 50*/
+
+.heatmap-05 {
+	background: #FFCB00;
+} /* 50 - 100*/
+
+.heatmap-06 {
+	background: #FFB601;
+} /* 100 - 200*/
+
+.heatmap-07 {
+	background: #FF8E01;
+} /* 200 - 400*/
+
+.heatmap-08 {
+	background: #FF6401;
+} /* 400 - 600*/
+
+.heatmap-09 {
+	background: #FF3C01;
+} /* 600 - 800*/
+
+.heatmap-10 {
+	background: #FF0000;
+} /* 800 - 1000*/
+
+.heatmap-11 {
+	background: #C10000;
+} 
+
+
+/*Heatmap colors (blue - violet)*/
+.blue-heatmap-01 {
+	background: #1FF1F2;
+} /* 0 - 0.01*/
+
+.blue-heatmap-02 {
+	background: #2EDDF3;
+} /* 0.01 - 1*/
+
+.blue-heatmap-03 {
+	background: #40C5F4;
+} /* 1 - 10*/
+
+.blue-heatmap-04 {
+	background: #4BB6F5;
+} /* 10 - 50*/
+
+.blue-heatmap-05 {
+	background: #54AAF5;
+} /* 50 - 100*/
+
+.blue-heatmap-06 {
+	background: #6298F6;
+} /* 100 - 200*/
+
+.blue-heatmap-07 {
+	background: #6E87F6;
+} /* 200 - 400*/
+
+.blue-heatmap-08 {
+	background: #7C75F7;
+} /* 400 - 600*/
+
+.blue-heatmap-09 {
+	background: #826DF7;
+} /* 600 - 800*/
+
+.blue-heatmap-10 {
+	background: #9356F8;
+} /* 800 - 1000*/

@@ -1,0 +1,16 @@
+.header-page {
+	display: flex;
+	justify-content: flex-end;
+
+	.nav {
+		margin: 20px 0;	
+
+		&-item {
+			margin: 0 10px;
+		}
+		.active {
+			color: red;
+			text-decoration: underline;
+		}
+	}
+}
