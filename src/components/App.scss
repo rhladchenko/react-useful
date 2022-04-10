@@ -12,8 +12,13 @@ html {
   font-size: 10px;
 }
 
-.content {
+.main {
+  display: flex;
+  flex-direction: column;
   height: 100%;
+}
+
+.content {
   max-width: 1200px;
   margin: 0 auto;
   font-size: 2rem;
@@ -28,5 +33,3 @@ html {
   color: darkblue;
   font-weight: 700;
 }
-
-

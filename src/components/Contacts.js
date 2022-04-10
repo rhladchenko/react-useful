@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Goods from '../containers/Goods';
+
 const Contacts = () => {
 	return (
 		<div>
